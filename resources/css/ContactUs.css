@@ -1,0 +1,103 @@
+/*==========================================================================*/
+/* STARTING OF CSS FILE OF INDEX PAGE*/
+/*==========================================================================*/
+
+/*==========================================================================*/
+/* FIRST STEPS OF CSS TO MAKE IT DECENT*/
+/*==========================================================================*/
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*==========================================================================*/
+/* FOR WHOLE HTML FILE*/
+/*==========================================================================*/
+
+html{
+    background-color: #d2deff;
+    color: #555;
+    font-family: 'catamaran','arial', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: auto auto auto auto;
+}
+/*==========================================================================*/
+/*MAIN BACKGROUND COVER*/
+/*==========================================================================*/
+
+header {
+   /* background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.36)),url(img/);*/
+    background-image: url(img/contact%20us%201.jpg);
+    height: 100vh;
+    background-size: cover;
+    //background-position: center;
+}
+h2{
+    //margin: 0;
+    color: white;
+    font-size: 240%;
+    font-weight: 100;
+    //text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+        text-shadow:2px 1px 1px black;
+
+}
+p{
+    font-size: 110%;
+    color: white;
+    letter-spacing: 0.5px;
+    word-spacing: 4px;
+    text-shadow: 5px 5px 5px  black;
+    
+}
+/*==========================================================================*/
+/*CSS DECORATION OF NEVIGATION BAR*/
+/*==========================================================================*/
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: -55px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.main-nav li a:link,
+.main-nav li a:visited
+{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active
+{
+    border-bottom: 2px solid #4fc9fa;
+}
+/*==========================================================================*/
+/*CSS DECORATION OF LOGO*/
+/*==========================================================================*/
+
+.logo {
+    height: 120px;
+    width: auto;
+    float:left;
+    margin-top: 10px;
+    border-radius: 10%;
+
+}
